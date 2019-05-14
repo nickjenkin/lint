@@ -204,7 +204,7 @@ func (f *file) lint() {
 	f.lintErrorf()
 	f.lintErrors()
 	f.lintErrorStrings()
-	f.lintReceiverNames()
+	//f.lintReceiverNames()
 	f.lintIncDec()
 	f.lintErrorReturn()
 	f.lintUnexportedReturn()
